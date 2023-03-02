@@ -9,6 +9,6 @@ char Computer::makeMove()
 
 std::string Computer::getName( )
 {
-    return "computer";
+    return "Computer";
 };
 
