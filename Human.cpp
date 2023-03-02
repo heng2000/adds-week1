@@ -8,7 +8,7 @@ string Human:: getName()
 }
 char Human::makeMove()
 {
-    cout << "Enter move: ";
+    // cout << "Enter move: ";
     cin >> user_entered_move;
     return user_entered_move;  
 };
