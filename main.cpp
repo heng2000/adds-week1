@@ -19,7 +19,7 @@ int main()
     Player*winner=player_ref.refGame(&player_human, &player_computer);
     if (winner==nullptr)
     {
-        cout<<"TIE";
+        cout<<"It's a Tie";
     }else{
         cout<<winner->getName()<<endl;
     }
